@@ -532,3 +532,19 @@ class MahasiswaModel extends Model
 ```
 
 -- jangan lupa composer install dan php spark serve
+
+## Test Postman
+1. post http://localhost:8080/dosen/
+```
+{
+    "NIDN": "987654321",
+    "nama_dosen": "Dr. Budi Santoso S"
+}
+```
+2. put http://localhost:8080/dosen/230202029
+```
+{
+    "NIDN": "230202029",
+    "nama_dosen": "Devia"
+}
+```
